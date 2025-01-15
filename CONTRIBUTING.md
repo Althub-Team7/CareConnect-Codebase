@@ -35,7 +35,7 @@ Please read and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We expect a
 
 1. Navigate to the project directory:  
    ```bash
-   cd care-connect
+   cd CareConnect
    ```
 2. Install dependencies (if any):  
    ```bash
@@ -97,7 +97,7 @@ Once your work is ready, submit a Pull Request (PR):
 3. Select your feature branch and compare it to `main`.  
 4. Provide a clear title and description for your PR.  
 
-For detailed steps, check our Pull Request Template.
+For detailed steps, check our Pull Request Template [here](#PULL_REQUEST_TEMPLATE.md).
 
 ---
 
