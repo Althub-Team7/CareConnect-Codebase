@@ -1,7 +1,3 @@
-### **CODING_STANDARD.md**
-
----
-
 # Care Connect Project - Coding Standards  
 
 Welcome to the Care Connect Project! To ensure our codebase is clean, consistent, and easy to work with, we’ve established these coding standards. *Please follow these guidelines carefully.*  

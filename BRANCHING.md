@@ -1,18 +1,15 @@
-Hereâ€™s the presented text in the requested format:
 
----
-
-## **Contributing Guidelines for Care Connect Project**
+# **Contributing Guidelines for Care Connect Project**
 
 Welcome to the Care Connect Project! This document will guide you on how to contribute effectively. Follow these steps to ensure we maintain a clean, organized, and efficient workflow.
 
 ---
 
-### **1. Understanding Our Branching Workflow**
+## **1. Understanding Our Branching Workflow**
 
 Our repository uses a branching strategy to manage changes systematically. Hereâ€™s a breakdown of the key branches:
 
-#### **Main Branches**
+### **Main Branches**
 - **`main`**: This is the stable, production-ready branch.
   - Contains only tested and approved code.
   - **Do not** make any changes directly to this branch.
@@ -20,7 +17,7 @@ Our repository uses a branching strategy to manage changes systematically. Hereâ
 - **`development`**: This is the active development branch.
   - All new features and updates should be merged here before moving to `main`.
 
-#### **Feature Branches**
+### **Feature Branches**
 - Feature branches are used to develop new features or work on specific tasks.
 - **Naming convention**:  
   ```plaintext
@@ -30,36 +27,36 @@ Our repository uses a branching strategy to manage changes systematically. Hereâ
 
 ---
 
-### **2. Steps for Contributing**
+## **2. Steps for Contributing**
 
-#### **Step 1: Fork the Repository**
+### **Step 1: Fork the Repository**
 - Fork this repository to your personal GitHub account.
 
-#### **Step 2: Clone the Repository**
+### **Step 2: Clone the Repository**
 - Clone the repository to your local machine:
   ```bash
-  git clone https://github.com/your-username/care-connect.git
+  git clone git@github.com:Althub-Team7/CareConnect-Codebase.git
   ```
 
-#### **Step 3: Set Upstream Remote**
+### **Step 3: Set Upstream Remote**
 - After cloning, set the upstream remote to the main repository:
   ```bash
   cd care-connect
-  git remote add upstream https://github.com/team-lead-username/care-connect.git
+  git remote add upstream git@github.com:Althub-Team7/CareConnect-Codebase.git
   ```
 
 ---
 
-### **3. Creating a Feature Branch**
+## **3. Creating a Feature Branch**
 
-#### **Step 1: Pull Latest Changes**
-Before creating a branch, ensure your local `develop` branch is up-to-date:
+### **Step 1: Pull Latest Changes**
+Before creating a branch, ensure your local `development` branch is up-to-date:
 ```bash
 git checkout development
 git pull upstream development
 ```
 
-#### **Step 2: Create a New Feature Branch**
+### **Step 2: Create a New Feature Branch**
 Create a feature branch for your task:
 ```bash
 git checkout -b feature/<feature-name>
@@ -71,23 +68,23 @@ git checkout -b feature/patient-registration
 
 ---
 
-### **4. Working on Your Feature**
+## **4. Working on Your Feature**
 
 Make your changes in the appropriate files. Follow these steps after completing your task:
 
-#### **Step 1: Add and Commit Changes**
+### **Step 1: Add and Commit Changes**
 - **Stage your changes**:
   ```bash
   git add .
   ```
 - **Commit your changes** with a descriptive message:
   ```bash
-  git commit -m "Added patient registration form for module 1"
+  git commit -m "Added patient registration form for Module-1"
   ```
 
 ---
 
-### **5. Pushing Your Changes**
+## **5. Pushing Your Changes**
 - Push your feature branch to the remote repository:
   ```bash
   git push origin feature/<feature-name>
@@ -99,7 +96,7 @@ git push origin feature/patient-registration
 
 ---
 
-### **6. Creating a Pull Request (PR)**
+## **6. Creating a Pull Request (PR)**
 
 1. Go to the GitHub repository.
 2. Select your feature branch.
@@ -109,14 +106,14 @@ git push origin feature/patient-registration
 
 ---
 
-### **7. Reviewing and Merging Pull Requests**
+## **7. Reviewing and Merging Pull Requests**
 
 - Once the PR is reviewed and approved, it will be merged into the `develop` branch.
 - After merging, the feature branch will be deleted to keep the repository clean.
 
 ---
 
-### **8. Important Notes**
+## **8. Important Notes**
 
 - Always work on a **feature branch**, never directly on `main` or `develop`.
 - Keep your commits small and descriptive.
@@ -124,7 +121,7 @@ git push origin feature/patient-registration
 
 ---
 
-### **9. Git Commands Cheat Sheet**
+## **9. Git Commands Cheat Sheet**
 
 Hereâ€™s a quick reference for common Git commands:
 

@@ -1,11 +1,9 @@
-### **PULL_REQUEST_TEMPLATE.md**  
-
-#### **Pull Request Guidelines**  
+### **Pull Request Guidelines**  
 Thank you for contributing to the Care Connect project! Please follow the steps below when submitting a pull request (PR).  
 
 ---
 
-### **1. PR Title**  
+## **1. PR Title**  
 Use a clear and descriptive title that summarizes the purpose of the PR.  
 
 **Examples**:  
@@ -14,7 +12,7 @@ Use a clear and descriptive title that summarizes the purpose of the PR.
 
 ---
 
-### **2. Description**  
+## **2. Description**  
 Provide a brief description of the changes made in this PR. Include:  
 - **What**: A summary of the changes.  
 - **Why**: The reason for the changes (e.g., bug fix, feature addition).  
@@ -22,7 +20,7 @@ Provide a brief description of the changes made in this PR. Include:
 
 **Example**:  
 ```markdown
-### Description  
+## Description  
 - **What**: Added a patient registration feature to Module 1.  
 - **Why**: To enable healthcare providers to register new patients.  
 - **How**: Created a new form component in `src/module1/registration`.  
@@ -30,7 +28,7 @@ Provide a brief description of the changes made in this PR. Include:
 
 ---
 
-### **3. Checklist**  
+## **3. Checklist**  
 Ensure the following before submitting your PR:  
 
 - [ ] My code follows the project’s coding standards.  
@@ -40,7 +38,7 @@ Ensure the following before submitting your PR:
 
 ---
 
-### **4. Linked Issues**  
+## **4. Linked Issues**  
 Reference any related issues by using the keyword `Closes` followed by the issue number.  
 
 **Example**:  
@@ -50,22 +48,22 @@ Closes #45
 
 ---
 
-### **5. Screenshots (if applicable)**  
+## **5. Screenshots (if applicable)**  
 Include screenshots or videos if the PR involves UI/UX changes.  
 
 ---
 
-### **6. Additional Notes**  
+## **6. Additional Notes**  
 Add any additional context or information that reviewers might need.  
 
 ---
 
-### **7. PR Submission Process**  
+## **7. PR Submission Process**  
 1. Ensure your changes are committed to a feature branch (e.g., `feat-patient-registration`).  
 2. Rebase your branch with the latest development branch before opening a PR.  
 3. Submit the PR and assign at least one reviewer.  
 
 ---
 
-### **Thank You!**  
+## **Thank You!**  
 Thank you for your contributions to the CareConnect project!  

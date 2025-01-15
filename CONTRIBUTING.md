@@ -1,5 +1,3 @@
-### **CONTRIBUTING.md**
-
 # **Contributing to Care Connect Project**
 
 Thank you for your interest in contributing to the Care Connect Project! Whether you're fixing a bug, adding a new feature, or improving documentation, we’re excited to have you on board. This guide will walk you through the process of contributing to our project.
@@ -7,12 +5,12 @@ Thank you for your interest in contributing to the Care Connect Project! Whether
 ---
 
 ### **Table of Contents**
-
+BRANCHING.md  CODE_OF_CONDUCT.md  CODING_STANDARD.md
 1. [Code of Conduct](#CODE_OF_CONDUCT.md)  
 2. [Getting Started](#getting-started)  
-3. [Branching Workflow](#branching-workflow)  
-4. [Coding Standards](#coding-standards)  
-5. [Pull Request Guidelines](#pull-request-guidelines)  
+3. [Branching Workflow](#BRANCHING.md)  
+4. [Coding Standards](#CODING_STANDARD.md)  
+5. [Pull Request Guidelines](#PULL_REQUEST_TEMPLATE.md)  
 6. [Useful Links](#useful-links)  
 
 ---
@@ -30,7 +28,7 @@ Please read and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We expect a
 2. Click the *Fork* button at the top right.  
 3. Clone the forked repository to your local machine:  
    ```bash
-   git clone https://github.com/your-username/care-connect.git
+   git clone git@github.com:Althub-Team7/CareConnect-Codebase.git
    ```
 
 #### **Setting Up Your Local Environment**
@@ -46,11 +44,11 @@ Please read and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We expect a
 
 #### **Synchronizing Your Fork**
 
-To keep your fork up to date with the main repository:  
+To keep your fork up to date with the development repository:  
 ```bash
-git remote add upstream https://github.com/original-owner/care-connect.git
+git remote add upstream git@github.com:Althub-Team7/CareConnect-Codebase.git
 git fetch upstream
-git merge upstream/main
+git merge upstream/development
 ```
 
 ---
@@ -86,7 +84,7 @@ All contributors must follow our Coding Standards. This ensures a consistent and
 - Follow proper indentation and spacing.  
 - Write clear and concise comments.  
 
-Refer to the full document [here](#).
+Refer to the full document [here](#CODING_STANDARD.md).
 
 ---
 
@@ -106,28 +104,16 @@ For detailed steps, check our Pull Request Template.
 ### **6. Useful Links**
 
 Here are some important resources to guide your contributions:  
-- [Code of Conduct](#)  
-- [Branching Workflow Guide](#)  
-- [Coding Standards](#)  
-- [Pull Request Template](#)  
-- [Git Basics Guide](#)
+- [Code of Conduct](#CODE_OF_CONDUCT.md)  
+- [Branching Workflow Guide](#BRANCHING.md)  
+- [Coding Standards](#CODING_STANDARD.md)  
+- [Pull Request Template](#PULL_REQUEST_TEMPLATE.md)  
 
 ---
 
 ### **Need Help?**
 
 If you encounter any issues or have questions, feel free to open an issue or contact the project maintainers. We’re here to help!
-
----
-
-### **Explanation of Sections**
-
-1. **Code of Conduct**: Links to a separate document promoting respectful collaboration.  
-2. **Getting Started**: Beginner-friendly setup instructions.  
-3. **Branching Workflow**: Clear steps for creating and working with branches.  
-4. **Coding Standards**: Links to a dedicated guide for code quality.  
-5. **Pull Request Guidelines**: Ensures smooth submission and review of code.  
-6. **Useful Links**: Centralized resources for easy navigation.
 
 ---
 
