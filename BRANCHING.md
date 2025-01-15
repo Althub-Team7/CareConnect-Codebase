@@ -41,7 +41,7 @@ Our repository uses a branching strategy to manage changes systematically. Hereâ
 ### **Step 3: Set Upstream Remote**
 - After cloning, set the upstream remote to the main repository:
   ```bash
-  cd care-connect
+  cd CareConnect
   git remote add upstream git@github.com:Althub-Team7/CareConnect-Codebase.git
   ```
 
